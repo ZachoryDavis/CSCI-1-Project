@@ -1,0 +1,56 @@
+//Zachory Davis CSCI Project
+// A.I. Lesily
+
+////This program is a text adventure game where the protagonist Codie is trying
+////to hack A.I Lesily, There should be items that effect the game story as
+////well as vectors and sorts that will come into play with the story
+
+#include<iostream>
+#include<string>
+#include<vector>
+#include<cassert>
+
+using namespace std;
+
+void test();
+void introSpeech();
+void introGame();
+int main()
+{
+	test();
+	introSpeech();
+	introGame();
+}
+
+//**Inputs**
+//The game should change text/story corrisponding to the user's first choice
+
+
+//**Outputs**
+//The game should display the starting of the game
+void introSpeech() {
+	cout << "Welcome to Project A.I. Lesily!" << endl
+		<< "In this game you will play as the protagonist Cody who is on a "
+		<< "mission to shut " << endl
+		<< "down the A.I. Lesily" << endl << endl;
+
+}
+
+//The game should show the player's first choice of action
+void introGame() {
+	cout << "CODY: I have some spare cash, I should buy an upgrade for my "
+		<< "computer before" << endl
+		<< "tonight." << endl
+		<< "NARRATOR: You walk into best buy where you can buy only one of "
+		<< "three upgrades."
+		<< "  Choose an upgrade carfully, it will matter in the future!" 
+		<< endl << endl
+		<< "1. Router Upgrade" << endl
+		<< "2. Second Monotor" << endl
+		<< "3. Ram Upgrade" << endl;
+
+}
+
+void test() {
+
+}
